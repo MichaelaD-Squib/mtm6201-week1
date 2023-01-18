@@ -1,17 +1,35 @@
 body {
     background-color: rebeccapurple;
     color: cornsilk;
-    position:static;
-    margin-top: 15%;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+header {
+    margin-top: 5%;
+    position: fixed;
 }
 
 h1 {
     background-color: black;
     color: aquamarine;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 
 img {
-    width: 300px;
+    width: 40%;
     height: auto;
+    position: relative;
+    margin-left: 60%;
+    border-color: black;
+    border-style: groove;
+    border-width: 15px;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
 }
